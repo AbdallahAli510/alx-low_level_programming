@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Alwys 1 (success)
+ */
 int main(void)
 {
         write(2,
