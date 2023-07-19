@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_alphab
+*print_alphabet_x10-Printsthealphabetinlowercase10timesusingthe_putcharfunction
  */
 void print_alphabet_x10(void)
 {
