@@ -1,6 +1,3 @@
-3-islower.c CODE
-
-
 #include "main.h"
 
 
