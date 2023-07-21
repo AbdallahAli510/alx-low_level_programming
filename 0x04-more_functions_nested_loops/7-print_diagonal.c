@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*print_diagonal-drawsadiagonallineontheterminal
-*@n:numberoftimesthecharacter\shouldbeprinted
+*print_diagonal-draws a diagonallineonthe terminal
+*@n:numberof timesthe character \ shouldbeprinted
 */
 void print_diagonal(int n)
 {
 if (n <= 0)
 {
-_putchar('\n'); 
+_putchar('\n');
 }
 else
 {
@@ -25,4 +25,3 @@ _putchar('\n');
 }
 }
 }
-
