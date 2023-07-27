@@ -7,16 +7,12 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
-* write your line of code here...
-* Remember:
-* - you are not allowed to use a
-* - you are not allowed to modify p
-* - only one statement
-* - you are not allowed to code anything else than this line of code
+* The added line of code below uses pointer arithmetic to access a memory location
+* five integers ahead of the address pointed by 'p' and assigns the value 98 to that location.
 */
 *(p + 5) = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
-return (0);
+return 0;
 }
 
