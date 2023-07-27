@@ -7,8 +7,8 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
-*Theaddedlineofcodebelowusespointerarithmetictoaccessamemorylocation
-*fiveintegersaheadoftheaddresspointedby'p'andassignsthe value 98 tothatlocation.
+*Theaddedneofcodebelowusespointerarithmetictoaccessamemorylocation
+*fiveintegeheadoftheaddresspointedby'p'andassignsthe value 98 tothatlocation.
 */
 *(p + 5) = 98;
 /* ...so that this prints 98\n */
